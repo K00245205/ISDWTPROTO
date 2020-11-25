@@ -1,0 +1,250 @@
+
+header {
+	background-color:  #357bec;
+	max-width: 100%;
+}
+.nav-bar {
+	display:inline-block;
+	
+}
+.nav-bar li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 5em;
+	
+	
+}
+
+.nav-bar li a {
+	color: white;
+	text-decoration: none;
+}
+
+#logo {
+	padding-top: 1em;
+	padding-left: 7em;
+	max-height: 8em;
+	max-width: 8em;
+	padding-bottom: 1em;
+}
+
+header img,header nav {
+    
+    vertical-align:middle;
+ }
+
+/* Links in header */
+header .login a{
+	
+	text-decoration: none;
+	color: white;
+	padding-left: 1.5em;
+	
+	max-width: 5%;
+	font-size: 14px;
+	
+}
+.login {
+	
+	float: right;
+	text-decoration: none;
+	color: white;
+	margin-right: 2em;
+	
+	
+	font-size: 14px;
+	
+	
+}
+.box{
+  width: 400px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background: #191919;
+  text-align: center;
+}
+
+.loginBox{
+  width: 300px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background: #191919;
+  text-align: center;
+}
+
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.loginBox h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"], .box input[type = "eMail"], .box input[type="tel"], .box input[type="password"], .box input[type="search"]{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 180px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  
+ 
+}
+
+.loginBox input[type = "text"],.loginBox input[type = "password"], .loginBox input[type = "eMail"], .loginBox input[type="tel"], .loginBox input[type="password"]{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  
+ 
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus, .box input[type = "eMail"]:focus, .box input[type="tel"]:focus, .box input[type="password"]:focus, .box input[type="search"]:focus{
+  width: 260px;
+  border-color: #2ecc71;
+}
+
+.loginBox input[type = "text"]:focus,.loginBox input[type = "password"]:focus, .loginBox input[type = "eMail"]:focus, .loginBox input[type="tel"]:focus, .loginBox input[type="password"]:focus{
+  width: 260px;
+  border-color: #2ecc71;
+}
+
+.box input[type = "button"], .box input[type = "reset"], .box input[type = "submit"] {
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.loginBox input[type = "button"], .loginBox input[type = "reset"], .loginBox input[type = "submit"] {
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="button"]{
+  border:0;
+  background: none;
+  display: inline;
+  padding-right: 1em;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "reset"]:hover{
+  background: #2ecc71;
+}
+
+.loginBox input[type="submit"]:hover{
+	background: #2ecc71;
+}
+.box input[type = "button"]:hover{
+	background-color: red;
+}
+
+#updateAccount[type = "button"]:hover {
+	background: #2ecc71;
+}
+
+.box label {
+	color: white;
+	display: block;
+}
+
+#mainWrapper {
+	background-image: url("../images/hero.png");
+	height: 100%;
+}
+
+a.registerButton {
+	color: white;
+	text-decoration: none;
+}
+.footerlinksUL ul li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.hide {
+	color: white;
+}
+
+.footerlinks a {
+	color: white;
+}
+
+footer {
+	height: 100%;
+}
+
+#eMail {
+	margin-left: 3em;
+	
+}
+
+#addressOne, #addressTwo {
+	margin-left: 1em;
+}
+
+#postCode, #phoneNumber, #password  {
+	margin-left: 1em;
+}
+
+#productSearch {
+	margin-left: 2em;
+}
+
+.box h2 {
+	color: white;
+}
+
+.confirm {
+	margin-left: 4.5em;
+	float: left;
+}
